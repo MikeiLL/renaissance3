@@ -1,0 +1,18 @@
+*** band signup page styles ***/
+
+h1#bandSignupDefaultHeading { 
+	text-align: center;
+	color: #802536;
+	}
+
+#bandSignupDefault {
+	height: 1%;
+ 	}
+
+#bandSignupDefault input:focus, #bandSignupDefault textarea:focus {
+	background: #BFDFFF;
+	}
+
+#bandSignupDefault LABEL.inputLabel {
+	width: 12em;
+	}

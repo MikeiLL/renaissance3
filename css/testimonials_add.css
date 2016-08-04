@@ -1,0 +1,25 @@
+label.inputLabel {
+	width: 14em;
+	float: left;
+	margin-right: 1em;  
+	color: #000;
+	}
+
+.testimonialImage {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+.testimonialsSmallText {
+	float: left;
+	color: #000;
+	font-weight: bold;
+	font-size: 0.65em;
+	padding: 0.2em;
+}
+
+.testimonialsError {
+font-size: 0.65em;
+color: #FF0000;
+}

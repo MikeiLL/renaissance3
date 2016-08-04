@@ -1,0 +1,39 @@
+/*
+BetterCategoriesEzInfo v1.3.0.2 added  2006-06-22  gilby
+Updated to v1.3.5   2006-09-19  gilby
+*/
+
+.betterCategories, .betterDocuments, .betterEzpages,
+.betterInformation, .betterMoreinformation, .betterBestsellers {
+	border-top: 0px solid #ffffff;
+}
+
+.betterCategories a, .betterCategories a:visited,
+.betterDocuments a, .betterDocuments a:visited,
+.betterEzpages a, .betterEzpages a:visited,
+.betterInformation a, .betterInformation a:visited,
+.betterMoreinformation a, .betterMoreinformation a:visited,
+.betterBestsellers a, .betterBestsellers a:visited {
+	display: block;
+	background:transparent;
+	border-top: 0px solid #ffffff;
+border-bottom:1px dashed #ccc;
+	padding: 4px;
+}
+
+.betterCategories a:hover, .betterCategories a:active,
+.betterDocuments a:hover, .betterDocuments a:active,
+.betterEzpages a:hover, .betterEzpages a:active,
+.betterInformation a:hover, .betterInformation a:active,
+.betterMoreinformation a:hover, .betterMoreinformation a:active,
+.betterBestsellers a:hover, .betterBestsellers a:active {
+background-color: #efefef;
+color:#584638;
+}
+
+/*
+.category-subs-selected, .category-subs-selected a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+*/

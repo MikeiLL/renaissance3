@@ -1,0 +1,40 @@
+fieldset {
+	padding: 0.5em;
+	margin: 0.5em 0;
+	display:block;
+	border:1px solid #000;
+}
+fieldset ol {  
+padding: .5em .5em 0 .5em;  
+list-style: none;
+}
+fieldset li {  
+padding-bottom: .5em;
+}
+fieldset #personal, fieldset #order, fieldset #write{
+	padding:0;
+	border:1px solid #000;
+	border-width: 1px 0 1px 0;
+}
+legend {
+	padding: 0.3em;
+	font-size: 1.1em;
+	color: #000;
+	font-weight:bold;
+}
+select {
+	margin: 0.1em;
+}
+textarea {
+margin: auto;
+padding:0.5em;
+display: inline;
+width: 40%;
+border:1px solid #B6ABD5;
+overflow:auto;
+}
+label.inputLabel {
+	width: 11em;
+	float: left;
+	color: #000;
+	}

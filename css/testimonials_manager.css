@@ -1,0 +1,21 @@
+#testimonialDefault h1{margin:0;padding:10px 0;font-size:1.5em;font-weight:700;}
+
+blockquote {
+margin:0 !important;
+padding:0 !important;
+background: url(../images/lftblockquote.png) top left no-repeat;
+border:1px solid navy;
+height:1%;
+}
+
+blockquote div {
+padding:38px 56px;
+background: url(../images/rgtblockquote.png) bottom right no-repeat;
+height:1%;
+}
+
+.testimonialImage {
+margin: 0;
+padding: 0;
+text-align: center;
+}

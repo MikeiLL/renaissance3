@@ -1,0 +1,109 @@
+#mega-wrapper {width: 105.5%;margin:0 auto;display:block;position: relative;z-index:999;top:0px;left:-27px;margin-top:-45px;text-transform:uppercase;}
+#mega-wrapper .mega-menu {background-color:#184B7A;list-style:none;margin:0px auto 0px auto;height:45px;padding:0px 20px 0px 20px;border-top:2px solid #E18F4B;-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+	   -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+	        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);}
+.mega-menu li {float:left;text-align:center;position:relative;margin-right:20px;margin-top:6px;border:none;}
+.mega-menu li.fullwidth {position: static !important;}
+.mega-menu li:hover {background: #184b7b;border:1px solid #184b7a;margin-right:18px;-moz-border-radius: 5px 5px 0px 0px; -webkit-border-radius: 5px 5px 0px 0px;-khtml-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px; }
+.mega-menu li a {color: #fff;outline:0;padding: 5px 12px 3px 12px;text-decoration:none;display:block;font-weight:normal;}
+.mega-menu li:hover a {color:#fffffe;position:relative;z-index:11;padding: 4px 11px 3px 11px;}
+.mega-menu li:hover div a {display:inline;}
+.mega-menu li .drop {padding-right:8px;}
+.mega-menu li:hover .drop {padding-right:19px;}
+
+/* mZoo adds */
+.mega-menu .levels li a{width:185px;}
+
+/* bof right aligned menu item */
+.mega-menu .right {float:right;right:0;margin-right:5px;}
+.mega-menu li.right:hover {margin-right:5px;}
+
+/* bof drop down styles */
+.mega-menu .dropdown_1column, .mega-menu .dropdown_2columns, .mega-menu .dropdown_3columns, .mega-menu .dropdown_4columns, .mega-menu .dropdown_5columns, .mega-menu .dropdown_customer_service, .mega-menu .dropdown_aboutus, .mega-menu .dropdown_info, .mega-menu .dropdown_fullwidth {margin:4px auto;left:-999em;position:absolute;border:0px solid #494949;background:#3b403a;padding:10px;text-align:left;-moz-border-radius: 0px 5px 5px 5px;-webkit-border-radius: 0px 5px 5px 5px;-khtml-border-radius: 0px 5px 5px 5px;border-radius: 0px 5px 5px 5px;background: #184b7a; /*-moz-linear-gradient(top, #2c2b2a, #191816);background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2c2b2a), to(#191816));background: -o-linear-gradient(top, #2c2b2a, #191816);*/}
+
+.mega-menu .dropdown_1column {width: 185px;}
+.mega-menu .dropdown_2columns {width: 340px;}
+.mega-menu .dropdown_customer_service {width: 605px;}
+.mega-menu .dropdown_aboutus {width: 585px;}
+.mega-menu .dropdown_info {width: 470px;}
+
+/* bof drop down on mouse hover left aligned */
+.mega-menu li:hover .dropdown_1column, .mega-menu li:hover .dropdown_2columns, .mega-menu li:hover .dropdown_customer_service, .mega-menu li:hover .dropdown_aboutus, .mega-menu li:hover .dropdown_info {left:-1px;top:25px;}
+
+/* bof drop down on mouse hover right aligned */
+.mega-menu li .align_right {-moz-border-radius: 5px 0px 5px 5px;-webkit-border-radius: 5px 0px 5px 5px;border-radius: 5px 0px 5px 5px;}
+.mega-menu li:hover .align_right {left:auto;right:-1px;top:25px;}
+
+/* bof column sizes */
+.mega-menu .col_1, .mega-menu .col_2 {display:inline;float: left;position: relative;margin-left: 10px;}
+.mega-menu .col_1 {width:185px;}
+.mega-menu .col_2 {width:340px;}
+.mega-menu .col_cs {width:605px;}
+.mega-menu .col_aboutus {width:585px;}
+.mega-menu .col_3 {width:455px;}
+.mega-menu .col_4 {width:610px;}
+.mega-menu .col_5 {width:765px;}
+.mega-menu .col_6 {width:920px;}
+
+/* Use the firstcolumn class for the items that stick to the left edge of the dropdown */
+.mega-menu .firstcolumn {margin-left: 0; /* Clearing margin & left */clear: left;}
+
+/*bof content*/
+.mega-menu p, .mega-menu ul, .mega-menu li, .mega-menu h2, .mega-menu h3 {font-size:14px;font-family:Arial, Helvetica, sans-serif;line-height:21px;text-align:left;color:#c04524;}
+.mega-menu p {font-size:12px;line-height:18px;margin:0;	margin-bottom:10px;color:#fffffd;text-transform: none;}
+.mega-menu h2, .mega-menu h3 {border-bottom:1px solid #fff;margin-top:7px;color:#fffffd;}
+.mega-menu h2 {font-size:21px;margin-bottom:18px;padding-bottom:11px;font-weight:normal;}
+.mega-menu h3 {font-size:14px;margin-bottom:14px;padding-bottom:7px;font-weight:normal;}
+.mega-menu li:hover div a {text-decoration:none;border:none;padding:0;}
+
+/* bof images */
+.mega-menu .imgshadow_light {padding:4px;border:0px solid #000;margin-top:5px;margin-left:20px;}
+
+/* bof standard lists styles */
+.mega-menu li ul {list-style:none;padding:0;margin:0 0 12px 0;}
+.mega-menu li ul li {font-size:12px;line-height:24px;position:relative;padding:0;margin:0;float:left;text-align:left;width:185px;}
+.mega-menu li ul li a {padding:0;font-weight:normal;}
+.mega-menu li ul li:hover {background:none;border:none;padding:0;margin:0;}
+
+/* bof 2 levels drop down */
+.mega-menu .levels, .mega-menu .levels ul {/* all lists */padding: 0;margin: 0;list-style: none;width:185px;text-transform:capitalize;}
+.mega-menu li:hover .levels a {display:block;}
+.mega-menu .levels a {display: block;width: 10em;font-weight:normal;}
+.mega-menu .levels a.parent, .mega-menu .levels a.parent:hover {}
+.mega-menu .levels li {float: left;width:150px;}
+.mega-menu .levels li ul {/* second-level lists*/ position: absolute;border:0px solid #fff;background:#184b7a;/*background: -moz-linear-gradient(top, #2c2b2a, #191816);background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2c2b2a), to(#191816));background: -o-linear-gradient(top, #2c2b2a, #191816);*/top:-23px;margin:15px 0px 0px 4px;padding:6px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-khtml-border-radius: 5px;border-radius: 5px;left: -999em;}
+.mega-menu .levels li ul ul {top:-23px;}
+.mega-menu .levels li:hover ul ul, .mega-menu .levels li:hover ul ul ul {left: -999em;}
+.mega-menu .levels li:hover ul, .mega-menu .levels li li:hover ul, .mega-menu .levels li li li:hover ul {left: 182px;}
+
+/*bof contact form*/
+#contact_form label, #contact_form legend {font-size: 12px;font-family:Arial, Helvetica, sans-serif;color:#fffffc;}
+#contact_form legend {margin-bottom:10px;}
+#contact_form {display: block;margin-bottom:10px;}
+#contact_form label {display: inline-block;float: left;height: 36px;font-size:12px;}
+#contact_form input, #contact_form textarea, #contact_form select {color:#232323;width:190px;padding: 5px;border:0px solid #58a0af;font-size:12px;}   
+#contact_form textarea {resize:none;}   
+#contact_form input:focus, textarea:focus, select:focus {border:0px solid #fff;background-color:#efe8ec;}
+#contact_form .required {color:#c00;}
+#contact_form .captcha {border:1px solid red; }
+#contact_form .captcha .label {font-size:11px;line-height:10px;width: 100%;}
+#contact_form .captcha .textarea {width:10px}
+#contact_form .form_buttons {margin:4px 0 0 80px;}
+#contact_form .special {display:none;}
+#contact_form .error, #contact_form .sent {font-size:11px;padding:2px 5px 2px 5px;text-shadow:none;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius: 3px;}
+#contact_form .error {background:#fbe5e2;border:1px solid #f2a197;color:#992213;}
+#contact_form .sent {background:#e1f8cc;border:1px solid #c6d880;color:#37620d;}
+#contact_form input.button {width: 80px;margin-right:10px;cursor: pointer;background-color:#3a88d5;border:0px solid #0a0a0a;color:#fff;padding: 4px 7px 4px 7px;float:right;}
+#contact_form input.button:hover {color:#fffffc;background-color:#000;}
+
+/*bof menu colors*/
+.menu_red {background: #fff;/*(url(../images/menu-bk.png) repeat-x;*/height:45px;}
+.menu_red li:hover div a {color:#fffffd;}
+.menu_red li:hover div a:hover {color:#adb7cd;text-decoration:underline;}
+.menu_red li ul li a:hover {color:#7ec3d4;text-decoration:underline;}
+
+/*bof customer service*/
+.mega-payments{float:left;}
+.mega-confidence{float:right;width:50%;}
+.mega-about{float:left;width:70%;}
+.mega-right{float:right;position: relative;margin-left: 10px;width:185px;}

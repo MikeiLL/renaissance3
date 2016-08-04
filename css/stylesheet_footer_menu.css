@@ -1,0 +1,22 @@
+#footer {clear:both;margin:0 auto;background-color:#8392AD;padding-top:30px;margin-bottom:0px;width:100%;border-left: 2px solid #E18F4B;border-right: 2px solid #E18F4B;}
+#footer-header{background:#184B7A;height:67px;margin:0 auto;width:105%;margin-left:-27px;margin-top:-55px;-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+	   -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+	        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);}
+#footer a:hover{color:#3a89d6;}
+#navSuppWrapper {margin: 10px 5px 0;padding: 0;background:#fff;font-weight: bold;margin:0 auto; padding-bottom:30px;-moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; border-bottom-right-radius: 5px;line-height:20px;}	
+#navSuppWrapper a{color:#444;font-weight:normal;}
+dl.footer {margin: 0 auto;padding:0;clear:both;height:190px;width:90%;}/*Adjust the height and width of the menu*/
+dt {margin-bottom:.3em;font-weight:bold;}
+dd {margin:0;padding:0;float:left;width:24.3%;}/*Column width of the menu - currently set for 4 columns*/
+dd ul {margin:0;padding:0;list-style: none;}
+dd li {margin:0;padding:0;}
+dd li a {margin:0;padding-left:2em;display:block;}
+.menuTitle {margin:0;padding-bottom:.8em;text-align:left;font-size:140%;font-weight:normal;color:#fffffd;margin-bottom:30px;padding-top:15px;margin-top:-65px;margin-left:15px;}
+.first, .second, .third {border-right:0px solid #444;}
+#siteinfoLegal {padding: .5em 0 0;font-size: 0.9em;text-align:center;line-height:normal;clear:both;color:#444;margin:0 auto;margin-top:0px;/*-moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; border-bottom-right-radius: 5px;*/position:relative;z-index:10;padding-bottom:20px;}
+#siteinfoLegal a {padding: 0 0.5em 0 0.5em;color: #444;font-weight:bold;white-space: nowrap;}
+#siteinfoLegal a:hover {color: #aca29c;}
+.twitter-image {margin-right:10px;}
+#social-media {float:right;margin-right:15px;margin-top:-40px;display:none;}
+#bannerSix {margin-top:0px;margin-bottom:30px;}
+#footer-payments{margin-top:-80px;}
